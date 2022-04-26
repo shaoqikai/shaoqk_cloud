@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
     <!--父类继承-->
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -9,6 +8,12 @@
         <version>3.0.0-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+    <!--子类维护-->
+    <modelVersion>4.0.0</modelVersion>
+    <modules>
+        <module>chongchong-service</module>
+    </modules>
+
     <!--打包方式-->
     <packaging>pom</packaging>
     <!--项目信息-->
